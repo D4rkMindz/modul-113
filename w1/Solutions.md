@@ -34,4 +34,51 @@ There are three data types in JavaScript: text (string), boolean (true or false)
 var myfont_face = "Arial"; //Schriftfarbe
 ```
 
-The string is enclosed in a grave (`),single (') or a double (") quote. If a double quote comes within a string, it needs to be escaped with a backslash (\).
+The string is enclosed in a grave (`),single (') or a double (") quote. If a double quote comes within a string, it needs to be escaped with a backslash (\).note
+
+### Describe the usage of the plus characters on line 40
+It concatenates the two strings
+
+### A date object is created on line 14. Describe the usage of all three used methods.
+getHours gets the hour value of the object (HH)
+getMinutes gets the minute value of the object (MM)
+getSeconds gets the second value of the object (SS)
+
+### Write three more Date methodes
+getUTCTime
+getFullYear
+getTime
+
+### There is an arithmetic operator on line 24. Write four more operators down.
++ Addition
+- Subtraction
+/ Division
+* Multiplication
+% Modulo
+
+### You find a comparison operator on line 31. Name all 8.
+```
+== weak comparison
+=== strong comparison
+!= weak negated comparison
+!== strong negated comparison
+< less than
+> more than
+<= less than or equal
+>= more than or equal
+```
+### On line 43 is a dom query. Name more methods to query the dom.
+```javascript
+$('#id');
+document.getElementById('id');
+document.getElementsByClassName('classname');
+document.getElementsByName('p');
+document.getElementsByTagName('href');
+```
+
+### On line 51 is an event listener. Name three more events that are emitted by the mouse
+click
+hover
+leave
+mousedown
+mouseup
