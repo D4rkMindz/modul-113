@@ -79,6 +79,8 @@ document.getElementsByTagName('href');
 ### On line 51 is an event listener. Name three more events that are emitted by the mouse
 click
 hover
-leave
+doubleclick
+mouseover
+mouseleave
 mousedown
 mouseup
