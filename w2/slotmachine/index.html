@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slotmachine</title>
+    <style>
+        .slots {
+            display: block;
+        }
+        .slots img {
+            display: inline-block;
+        }
+        .game{
+            display: block;
+        }
+        .game > * {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="slots">
+    <img id="image1" src="assets/slot1.png">
+    <img id="image2" src="assets/slot2.png">
+    <img id="image3" src="assets/slot3.png">
+</div>
+<div class="game">
+    <button id="play">Spin</button>
+
+    <p>CHF <span class="help" id="account"></span></p>
+    <span class="help" id="win"></span>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
